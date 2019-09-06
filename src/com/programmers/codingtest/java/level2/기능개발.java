@@ -46,7 +46,7 @@ public class 기능개발 {
     따라서 7일째에 2개의 기능, 9일째에 1개의 기능이 배포됩니다.
     */
 
-    public static int[] solution(int[] progresses, int[] speeds) {  //요기 - 진행중
+    public static int[] solution(int[] progresses, int[] speeds) {
         int[] proComDay = new int[progresses.length];   //각 프로세스별 필요한 일수
         for(int x=0; x<progresses.length; x++) {    //각 프로세스별 걸리는 일수 담아주기
             proComDay[x] = ((100-progresses[x])/speeds[x])+((100-progresses[x])%speeds[x]>0?1:0);   //잔여시간이 더 필요하다면 +1
