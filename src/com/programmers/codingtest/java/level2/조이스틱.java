@@ -35,7 +35,7 @@ public class 조이스틱 {
         System.out.println();
         name = "BBBBAAAAAB";
         res = solution(name);
-        System.out.println(name+"의 결과는(10) : "+res);
+        System.out.println(name+"의 결과는(12) : "+res);
         System.out.println();
     }
 
