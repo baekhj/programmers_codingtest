@@ -2,8 +2,6 @@ package com.programmers.codingtest.java.level2;
 
 import java.util.*;
 
-//걍 커밋안할 문제 풀기용 파일
-
 public class 숫자야구 {
 
     public static void main(String[] args) {
